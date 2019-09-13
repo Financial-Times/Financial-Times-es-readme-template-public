@@ -64,6 +64,17 @@ _Note: Not all of these sections are mandatory. The status for each section is g
 - Use http://shields.io or a similar service to create and host the images.
 - Add the [Standard Readme badge](https://github.com/RichardLitt/standard-readme#badge) if your README follows these guidelines.
 
+### Table of Contents
+**Status:** Required; optional for READMEs shorter than 100 lines.
+
+**Requirements:**
+- Must link to all Markdown sections in the file.
+- Must start with the next section; do not include the title or Table of Contents headings.
+- Must be at least one-depth: must capture all `##` headings.
+
+**Suggestions:**
+- May capture third and fourth depth headings. If it is a long ToC, these are optional.
+
 ### Short Description
 **Status:** Required.
 
@@ -90,17 +101,6 @@ _Note: Not all of these sections are mandatory. The status for each section is g
 generally in just a few paragraphs; more detail of the module's
 routines or methods, lengthy code examples, or other in-depth
 material should be given in subsequent sections.
-
-### Table of Contents
-**Status:** Required; optional for READMEs shorter than 100 lines.
-
-**Requirements:**
-- Must link to all Markdown sections in the file.
-- Must start with the next section; do not include the title or Table of Contents headings.
-- Must be at least one-depth: must capture all `##` headings.
-
-**Suggestions:**
-- May capture third and fourth depth headings. If it is a long ToC, these are optional.
 
 ### Install
 **Status:** Required by default, optional for [documentation repositories](#definitions).
@@ -141,6 +141,17 @@ material should be given in subsequent sections.
 - Describe signatures, return types, callbacks, and events.
 - Cover types covered where not obvious.
 - Describe caveats.
+
+### Monitoring
+**Status:** Optional.
+
+**Requirements:**
+- Provide links to necessary monitoring for the module.
+
+**Suggestions:**
+- Grafana Dashboards
+- Heimdall Checks
+- Any other necessary monitoring.
 
 ### Maintainer(s)
 **Status**: Optional.
