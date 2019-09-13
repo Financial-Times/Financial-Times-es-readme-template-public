@@ -1,97 +1,55 @@
-# es-readme-template 
+# Financial Times ES README Template Public
 
 ![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)
-
-> Standard Readme Style
-Your README file is normally the first entry point to your code. It should tell people why they should use your module, how they can install it, and how they can use it. Standardizing how you write your README makes creating and maintaining your READMEs easier. Great documentation takes work!
-
-This repository contains:
-
-1. readme.md
-2. [A badge](#badge) to point to this spec.
-
-Standard Readme is designed for open source libraries.
 
 ## Table of Contents
 
-- [Overview](#overview)
+- [Description](#short_description)
 - [Install](#install)
-	- [Pre Req](#prepreq)
-  - [Local Install](#localinstall)
-  - [Deployment](#deployment)
 - [Usage](#usage)
-- [Monitoring](monitoring)
-- [Badges](#badges)
+- [API](#api)
+- [Monitoring](#monitoring)
 - [Maintainers](#maintainers)
+- [License](#license)
 
-## Overview
+# Short Description
 
-> Your documentation is complete when someone can use your module without ever
-having to look at its code. This is very important. This makes it possible for
-you to separate your module's documented interface from its internal
-implementation (guts). This is good because it means that you are free to
-change the module's internals as long as the interface remains the same.
+This is where you should write a brief overview of what your repo contains.
 
+# Long Description
 
-The goals for this repository are:
-
-1. Define the **Standard Readme** that will apply to all new repos in enterprise services.
-2. A **compliant badge** for users. See [the badge](#badge).
+Go into more detail about your repo. Your documentation is complete when someone can use your module without ever
+having to look at its code. Think about including information on:
+1. Reasons you made this repo.
+1. Thought processes behind it's design.
+1. Detailed description of what it could be used for.
 
 ## Install
-
-
-```sh
-$
-```
-
-### Pre req
+Here you should document any install steps required to use this module. You should consider documenting any pre-requisites in this section too.
 
 ```sh
 $
 ```
 
-### Local Install
-
-```sh
-$
-```
-
-### Deployment
-
-```sh
-$
-```
 ## Usage
-
-This is only a documentation package. You can print out [spec.md](spec.md) to your console:
+Here you should document some common or example code blocks showing how this module should be used. This may also include a section on how to interact with relevant CLIs.
 
 ```sh
-$ standard-readme-spec
-# Prints out the standard-readme spec
+$
+```
+
+## API
+Here you should document some examples of any relevant API calls or return types.
+
+```sh
+$
 ```
 
 ## Monitoring
-
-Healthcheck:
-
-
-## Badges
-
-If your README is compliant with Standard-Readme and you're on GitHub, it would be great if you could add the badge. This allows people to link back to this Spec, and helps adoption of the README. The badge is **not required**.
-
-![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)
-
-To add in Markdown format, use this code:
-
-```
-![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)
-```
+Here you should place some links to relevant health checks or monitoring for the module.
 
 ## Maintainers
+This is a list of anyone who actively maintains this repo. Can contian past maintainers too but should show that they are not currently actively working on this anymore.
 
-ES-Common-Tooling.
-
-### Contributors
-
-This project exists thanks to all the people who contribute.
+## License
+Information on any necessary Licenses.
