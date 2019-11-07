@@ -4,7 +4,7 @@
 
 ## Table of Contents
 
-- [Description](#short_description)
+- [Description](#short-description)
 - [Install](#install)
 - [Usage](#usage)
 - [API](#api)
